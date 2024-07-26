@@ -19,9 +19,9 @@ Cervecería y Maltería Quilmes, a través de su aplicación B2B llamada BEES, d
 
 A continuación, se detalla todo el proceso realizado para desarrollar el modelo de Machine Learning que predice los productos que cada cliente comprará en su próximo pedido. En los notebooks se encuentran todas las explicaciones y justificaciones necesarias. Los notebooks más importantes son:
 
-- [pipeline.ipynb](https://github.com/LScelza/Quilmes/blob/main/pipeline.ipynb): En este notebook se realiza todo el procesamiento de datos, incluyendo el preprocesamiento, transformaciones y la ingeniería de características.
+- [pipeline.ipynb](https://github.com/LScelza/Quilmes/blob/main/pipeline.py): En este notebook se realiza todo el procesamiento de datos, incluyendo el preprocesamiento, transformaciones y la ingeniería de características.
 
-- [ejecutable.ipynb](https://github.com/LScelza/Quilmes/blob/main/ejecutable.ipynb): En este notebook se ingresa un ID de usuario, se entrena el modelo con los datos del usuario y se devuelve la predicción de productos que es más probable que el cliente compre en su próximo pedido.
+- [ejecutable.ipynb](https://github.com/LScelza/Quilmes/blob/main/ejecutable.py): En este notebook se ingresa un ID de usuario, se entrena el modelo con los datos del usuario y se devuelve la predicción de productos que es más probable que el cliente compre en su próximo pedido.
 
 El proceso del pipeline permite escalabilidad y se puede actualizar con una frecuencia diaria, al igual que las recomendaciones.
 
@@ -249,7 +249,7 @@ Se realizaron ajustes de hiperparámetros para los modelos de Random Forest y XG
 ### Conclusión Final
 La evaluación de los modelos permitió identificar las mejores configuraciones y técnicas para predecir las futuras compras de los clientes. Se guardaron los modelos entrenados y los resultados de las evaluaciones para su uso en futuras etapas del proyecto.
 
-# [Evaluación de Modelos](https://github.com/LScelza/Quilmes/blob/main/Modelado/Pruebas%20varias/evaluacion_models.ipynb)
+# [Evaluación de Modelos](https://github.com/LScelza/Quilmes/blob/main/Modelado/Pruebas%20varias/evaluacion_modelos.ipynb)
 
 ## Carga y Preparación de Datos
 
