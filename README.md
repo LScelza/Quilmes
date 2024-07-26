@@ -27,7 +27,7 @@ El proceso del pipeline permite escalabilidad y se puede actualizar con una frec
 
 Estos notebooks son fundamentales para entender el flujo completo del proyecto y cómo se generan las predicciones.
 
-# [EDA](#eda)
+# [EDA](https://github.com/LScelza/Quilmes/blob/main/eda.ipynb)
 
 ## Carga de Datasets
 
@@ -98,7 +98,7 @@ Finalmente, se guardó el DataFrame limpio en la carpeta `Datasets`, asegurando 
 9. **Reordenamiento del DataFrame**: Reordenar el DataFrame facilita el análisis y asegura que las variables estén agrupadas de manera lógica, mejorando la claridad y el manejo de los datos.
 
 
-# [Modelado](#modelado)
+# [Modelado](https://github.com/LScelza/Quilmes/blob/main/modelado_general.ipynb)
 
 ## Carga de Dataset
 
@@ -161,7 +161,7 @@ Luego de realizar varias pruebas, se determinó que la mejor opción es agrupar 
 
 Se guardó el dataset de entrenamiento transformado, asegurando que esté listo para el siguiente paso del modelado.
 
-# [Creación de Modelos](#creación-de-modelos)
+# [Creación de Modelos](https://github.com/LScelza/Quilmes/blob/main/Modelado/Pruebas%20varias/modelo_pruebas_varias.ipynb)
 
 ## Transformación de `id_usuario` para la Predicción de Compras
 
@@ -249,7 +249,7 @@ Se realizaron ajustes de hiperparámetros para los modelos de Random Forest y XG
 ### Conclusión Final
 La evaluación de los modelos permitió identificar las mejores configuraciones y técnicas para predecir las futuras compras de los clientes. Se guardaron los modelos entrenados y los resultados de las evaluaciones para su uso en futuras etapas del proyecto.
 
-# [Evaluación de Modelos](#evaluación-de-modelos)
+# [Evaluación de Modelos](https://github.com/LScelza/Quilmes/blob/main/Modelado/Pruebas%20varias/evaluacion_models.ipynb)
 
 ## Carga y Preparación de Datos
 
@@ -312,7 +312,7 @@ Se evaluaron las configuraciones y resultados de los mejores modelos, identifica
 ## Guardado de Resultados
 Los resultados finales se guardaron en un archivo Excel (`comparaciones_final.xlsx`) para futuras referencias y análisis detallados.
 
-# [Pruebas con modelo elegido (Redes Neuronales)](#pruebas-con-modelo-elegido-redes-neuronales)
+# [Pruebas con modelo elegido (Redes Neuronales)](https://github.com/LScelza/Quilmes/blob/main/Modelado/Pruebas%20varias/pruebas_nn.ipynb)
 
 ## Carga y Preparación de Datos
 
