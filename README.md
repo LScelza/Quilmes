@@ -21,7 +21,7 @@ A continuación, se detalla todo el proceso realizado para desarrollar el modelo
 
 - [pipeline.ipynb](https://github.com/LScelza/Quilmes/blob/main/pipeline.ipynb): En este notebook se realiza todo el procesamiento de datos, incluyendo el preprocesamiento, transformaciones y la ingeniería de características.
 
-- [ejecutable.ipynb](#): En este notebook se ingresa un ID de usuario, se entrena el modelo con los datos del usuario y se devuelve la predicción de productos que es más probable que el cliente compre en su próximo pedido.
+- [ejecutable.ipynb](https://github.com/LScelza/Quilmes/blob/main/ejecutable.ipynb): En este notebook se ingresa un ID de usuario, se entrena el modelo con los datos del usuario y se devuelve la predicción de productos que es más probable que el cliente compre en su próximo pedido.
 
 El proceso del pipeline permite escalabilidad y se puede actualizar con una frecuencia diaria, al igual que las recomendaciones.
 
